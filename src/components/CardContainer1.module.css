@@ -1,0 +1,397 @@
+.groupChild {
+  position: absolute;
+  top: 503px;
+  left: 88px;
+  background-color: var(--color-steelblue-300);
+  filter: blur(200px);
+  width: 574px;
+  height: 209px;
+}
+.patternIcon {
+  position: relative;
+  width: 88.74px;
+  height: 118px;
+  display: none;
+}
+.group71Child {
+  position: absolute;
+  height: 100%;
+  width: 96.47%;
+  top: 0;
+  right: 3.53%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group71,
+.overview {
+  position: absolute;
+  top: 74px;
+  left: 82px;
+}
+.group71 {
+  top: 26px;
+  left: 100px;
+  width: 938px;
+  height: 661px;
+  overflow: hidden;
+}
+.groupItem {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  background-color: var(--color-steelblue-400);
+  filter: blur(200px);
+  width: 221px;
+  height: 243px;
+}
+.graph1Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+}
+.averageLikesGained,
+.days {
+  position: absolute;
+  left: 14.51%;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.days {
+  width: 41.45%;
+  top: 11.67%;
+  line-height: 32px;
+}
+.averageLikesGained {
+  width: 61.14%;
+  top: 25.83%;
+  font-size: var(--body-text-xs-font-semibold-size);
+  color: var(--color-lightsteelblue-200);
+}
+.groupInner {
+  height: 70%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 30%;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-lightcyan);
+}
+.arrowIcon,
+.div,
+.groupInner {
+  position: absolute;
+}
+.div {
+  width: 50.82%;
+  top: 13.33%;
+  left: 36.07%;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  display: inline-block;
+}
+.arrowIcon {
+  height: 25.84%;
+  width: 12.01%;
+  top: 21.48%;
+  right: 75.58%;
+  bottom: 52.68%;
+  left: 12.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleContainer {
+  position: absolute;
+  height: 12.5%;
+  width: 31.61%;
+  top: 37.5%;
+  right: 53.89%;
+  bottom: 50%;
+  left: 14.51%;
+  font-size: var(--font-size-3xs);
+  color: var(--color-deepskyblue-100);
+}
+.rectangleDiv {
+  position: absolute;
+  height: 53.06%;
+  width: 100%;
+  top: 46.94%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-skyblue);
+}
+.b {
+  position: absolute;
+  width: 60%;
+  top: 0;
+  left: 20%;
+  display: inline-block;
+}
+.groupChild1,
+.groupDiv {
+  position: absolute;
+  height: 56.32%;
+  width: 11.11%;
+  top: 43.68%;
+  right: 88.89%;
+  bottom: 0;
+  left: 0;
+}
+.groupChild1 {
+  height: 64.41%;
+  width: 100%;
+  top: 35.59%;
+  right: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-skyblue);
+}
+.b1 {
+  position: absolute;
+  width: 80%;
+  top: 0;
+  left: 13.33%;
+  display: inline-block;
+}
+.groupChild2,
+.rectangleParent1 {
+  position: absolute;
+  height: 67.82%;
+  width: 11.11%;
+  top: 32.18%;
+  right: 66.67%;
+  bottom: 0;
+  left: 22.22%;
+}
+.groupChild2 {
+  height: 71.64%;
+  width: 100%;
+  top: 28.36%;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-skyblue);
+}
+.b2 {
+  position: absolute;
+  width: 73.33%;
+  top: 0;
+  left: 13.33%;
+  display: inline-block;
+}
+.groupChild4,
+.rectangleParent2,
+.rectangleParent3 {
+  position: absolute;
+  height: 77.01%;
+  width: 11.11%;
+  top: 22.99%;
+  right: 44.44%;
+  bottom: 0;
+  left: 44.44%;
+}
+.groupChild4,
+.rectangleParent3 {
+  height: 67.82%;
+  top: 32.18%;
+  right: 22.22%;
+  left: 66.67%;
+}
+.groupChild4 {
+  height: 82.76%;
+  width: 100%;
+  top: 17.24%;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-deepskyblue-100);
+}
+.b4,
+.rectangleParent4 {
+  position: absolute;
+  top: 0;
+}
+.b4 {
+  width: 66.67%;
+  left: 13.33%;
+  display: inline-block;
+}
+.rectangleParent4 {
+  height: 100%;
+  width: 11.11%;
+  right: 0;
+  bottom: 0;
+  left: 88.89%;
+  color: var(--color-deepskyblue-100);
+}
+.graph,
+.graph1 {
+  position: absolute;
+}
+.graph {
+  height: 36.25%;
+  width: 69.95%;
+  top: 52.08%;
+  right: 15.54%;
+  bottom: 11.67%;
+  left: 14.51%;
+  font-size: var(--font-size-4xs);
+  color: var(--color-skyblue);
+}
+.graph1 {
+  height: 74.77%;
+  width: 67.98%;
+  top: 0;
+  right: 32.02%;
+  bottom: 25.23%;
+  left: 0;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 189px;
+  left: 0;
+  width: 221px;
+  height: 321px;
+  font-size: var(--font-size-xl);
+  color: var(--color-steelblue-200);
+}
+.groupChild5 {
+  position: absolute;
+  top: 64px;
+  left: 12px;
+  background-color: var(--color-steelblue-500);
+  filter: blur(200px);
+  width: 225px;
+  height: 116px;
+}
+.adsStatuses {
+  position: absolute;
+  width: 27.7%;
+  top: 15.82%;
+  left: 5.92%;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.3px;
+  line-height: 32px;
+  display: inline-block;
+  color: var(--color-steelblue-200);
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 18px;
+  height: 18px;
+}
+.active {
+  position: relative;
+  letter-spacing: 0.3px;
+}
+.ellipseContainer,
+.ellipseGroup,
+.ellipseParent,
+.ellipseParent1,
+.ellipseParent2,
+.frameDiv {
+  position: absolute;
+  height: 16.95%;
+  width: 24.99%;
+  top: 42.94%;
+  right: 71.86%;
+  bottom: 40.11%;
+  left: 3.15%;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-skyblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-7xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ellipseContainer,
+.ellipseGroup,
+.ellipseParent1,
+.ellipseParent2,
+.frameDiv {
+  width: 35.85%;
+  right: 37.89%;
+  left: 26.26%;
+}
+.ellipseContainer,
+.ellipseParent1,
+.ellipseParent2,
+.frameDiv {
+  width: 30.96%;
+  right: 11.79%;
+  left: 57.25%;
+}
+.ellipseParent1,
+.ellipseParent2,
+.frameDiv {
+  width: 27.97%;
+  top: 67.23%;
+  right: 69.21%;
+  bottom: 15.82%;
+  left: 2.82%;
+}
+.ellipseParent1,
+.ellipseParent2 {
+  width: 34.22%;
+  right: 39.34%;
+  left: 26.44%;
+}
+.ellipseParent2 {
+  width: 30.96%;
+  right: 11.79%;
+  left: 57.25%;
+}
+.graph2 {
+  position: absolute;
+  height: 98.33%;
+  width: 107.97%;
+  top: -26.67%;
+  right: 41.55%;
+  bottom: 28.33%;
+  left: -49.53%;
+  display: none;
+}
+.graph21Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 341px;
+  height: 128px;
+  overflow: hidden;
+}
+.rectangleParent,
+.rectangleParent5 {
+  position: absolute;
+  top: 0;
+  left: 432px;
+  width: 341px;
+  height: 180px;
+  font-size: var(--font-size-sm);
+  color: var(--color-deepskyblue-200);
+}
+.rectangleParent {
+  left: 0;
+  width: 1038px;
+  height: 712px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-600);
+  font-family: var(--font-dm-sans);
+}

@@ -1,0 +1,107 @@
+.labelClass {
+  position: relative;
+  line-height: 22.5px;
+  z-index: 0;
+}
+.selectClass {
+  top: 2px;
+  left: 0;
+  line-height: 22.5px;
+  display: flex;
+  align-items: center;
+  width: 82.14px;
+  height: 18px;
+}
+.div,
+.options,
+.selectClass {
+  position: absolute;
+}
+.div {
+  width: 100%;
+  top: calc(50% - 0.5px);
+  right: 0;
+  left: 0;
+  height: 22.5px;
+  overflow: hidden;
+}
+.options {
+  margin: 0 !important;
+  right: 762.5px;
+  bottom: 44px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  width: 1px;
+  height: 1px;
+  z-index: 1;
+}
+.selectClass1 {
+  position: relative;
+  line-height: 43px;
+}
+.combobox,
+.textbox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textbox {
+  width: 761.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-0) var(--padding-650xl-5) var(--padding-0)
+    var(--padding-mini);
+}
+.combobox {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-600);
+  width: 763.5px;
+  padding: var(--padding-12xs);
+  z-index: 2;
+  font-size: var(--font-size-sm);
+}
+.presentation {
+  position: absolute;
+  margin: 0 !important;
+  top: 51px;
+  left: 736.5px;
+  border-top: 6px solid var(--base-black);
+  border-right: 6px solid var(--base-black);
+  border-left: 6px solid var(--base-black);
+  box-sizing: border-box;
+  width: 12px;
+  height: 6px;
+  z-index: 3;
+}
+.divcol12,
+.divformGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divformGroup {
+  width: 763.5px;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-5xs-5);
+}
+.divcol12 {
+  position: absolute;
+  height: calc(100% - 384.5px);
+  width: calc(100% - 787.5px);
+  top: 60px;
+  right: 0;
+  bottom: 324.5px;
+  left: 787.5px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 1575px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslategray-800);
+  font-family: var(--font-roboto);
+}

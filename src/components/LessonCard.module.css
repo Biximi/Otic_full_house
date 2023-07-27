@@ -1,0 +1,145 @@
+.lessons2 {
+  top: -1px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div,
+.ipsuumDolor,
+.lessons2 {
+  position: absolute;
+  left: 0;
+}
+.ipsuumDolor {
+  top: 23px;
+  font-size: var(--font-size-smi);
+  line-height: 19.5px;
+  color: var(--color-darkgray-600);
+}
+.div {
+  top: 3px;
+  line-height: 14px;
+}
+.item,
+.jul172023 {
+  position: absolute;
+  top: 0;
+}
+.jul172023 {
+  left: 20.25px;
+  line-height: 21px;
+  font-family: var(--font-roboto);
+}
+.item {
+  height: 100%;
+  width: calc(100% - 356.47px);
+  right: 356.47px;
+  bottom: 0;
+  left: 0;
+}
+.div1 {
+  position: relative;
+  line-height: 21px;
+}
+.am,
+.item1 {
+  position: absolute;
+  top: 0;
+  font-family: var(--font-roboto);
+}
+.item1 {
+  height: 100%;
+  width: calc(100% - 445.3px);
+  right: 340.47px;
+  bottom: 0;
+  left: 104.83px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.am {
+  left: 22px;
+  line-height: 21px;
+}
+.item2 {
+  height: 100%;
+  width: calc(100% - 323.47px);
+  top: 0;
+  right: 203.22px;
+  bottom: 0;
+  left: 120.25px;
+}
+.data,
+.item2,
+.list {
+  position: absolute;
+}
+.list {
+  height: calc(100% - 43.5px);
+  width: 100%;
+  top: 43.5px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightslategray-100);
+  font-family: var(--font-font-awesome-5-free);
+}
+.data {
+  height: calc(100% - 32.5px);
+  width: calc(100% - 248.92px);
+  top: 10px;
+  right: 224.92px;
+  bottom: 22.5px;
+  left: 24px;
+}
+.linkConfirmed,
+.reschedule {
+  line-height: 21px;
+  font-weight: 500;
+}
+.linkConfirmed {
+  position: absolute;
+  top: 13px;
+  right: 24.58px;
+}
+.reschedule {
+  position: relative;
+}
+.button,
+.data1 {
+  position: absolute;
+}
+.button {
+  top: calc(50% + 1px);
+  left: 98.06px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-royalblue-100);
+  border: 1px solid var(--color-royalblue-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-6xs) 12.860000610351562px var(--padding-6xs)
+    var(--padding-smi);
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-white);
+}
+.data1 {
+  top: calc(50% - 48.5px);
+  left: 477.3px;
+  width: 220.92px;
+  height: 97px;
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--color-royalblue-100);
+}
+.row {
+  position: relative;
+  width: 698.22px;
+  height: 97px;
+  text-align: left;
+  font-size: var(--inter-semi-bold-16-size);
+  color: var(--base-black);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,88 @@
+.heading5,
+.today {
+  position: relative;
+  line-height: 25.5px;
+}
+.heading5 {
+  font-size: var(--pj-bold-18-size);
+  line-height: 21.6px;
+  font-family: var(--font-nunito);
+  color: var(--color-sandybrown-100);
+  text-align: left;
+}
+.div {
+  width: 183.98px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-0) 88.97999572753906px 0.5900001525878906px
+    var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-5);
+}
+.divprogress,
+.progressbar {
+  border-radius: var(--br-31xl);
+  overflow: hidden;
+}
+.progressbar {
+  position: relative;
+  background-color: var(--color-sandybrown-100);
+  width: 57.03px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.divprogress {
+  background-color: var(--color-ghostwhite);
+  width: 183.98px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 126.94999694824219px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divstatsInfo {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(238, 238, 238, 0.25);
+  border: 1px solid var(--color-aliceblue-400);
+  width: 215.98px;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-base) var(--padding-base);
+  gap: var(--gap-6xl);
+}
+.divcard,
+.divcolMd6,
+.divstatsInfo {
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divcard {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 14px rgba(209, 209, 209, 0.25);
+  width: 227.98px;
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-7xs) var(--padding-7xl);
+}
+.divcolMd6 {
+  position: absolute;
+  height: calc(100% - 330.19px);
+  width: calc(100% - 252px);
+  top: 0;
+  right: 252px;
+  bottom: 330.19px;
+  left: 0;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-xs) var(--padding-3xs);
+  max-width: 503.9800109863281px;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-1000);
+  font-family: var(--font-roboto);
+}

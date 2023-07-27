@@ -1,0 +1,178 @@
+.pricingChild {
+  position: absolute;
+  top: -3px;
+  left: 130px;
+  background-color: var(--color-white);
+  width: 1571px;
+  height: 86px;
+}
+.frameChild {
+  width: 98px;
+  height: 42px;
+  object-fit: cover;
+}
+.pricingWrapper {
+  width: 98px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.products {
+  position: relative;
+  line-height: 60px;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.frameGroup {
+  gap: var(--gap-159xl);
+}
+.getStartedWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-blue);
+  width: 172px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+.frameDiv,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 300px;
+  gap: var(--gap-lg);
+}
+.frameParent {
+  position: absolute;
+  top: 19px;
+  left: 187px;
+  gap: var(--gap-516xl);
+}
+.vectorIcon {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 519px;
+}
+.categoryParent {
+  position: absolute;
+  top: 379px;
+  left: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.chooseYourPlan {
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 182px);
+  font-size: var(--font-size-21xl);
+}
+.loremIpsumIs {
+  position: absolute;
+  top: 169px;
+  left: calc(50% - 446px);
+  line-height: 180%;
+  font-family: var(--font-poppins);
+  display: inline-block;
+  width: 892px;
+}
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-13xl);
+  height: 40px;
+}
+.groupChild {
+  left: 62px;
+  background-color: rgba(0, 0, 0, 0.02);
+  width: 173px;
+}
+.groupItem {
+  left: 0;
+  background-color: var(--color-mediumslateblue-100);
+  width: 120px;
+}
+.monthly {
+  position: absolute;
+  top: 10px;
+  left: 26px;
+  line-height: 120%;
+  font-weight: 600;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 0 20px rgba(0, 0, 0, 0.1);
+  width: 120px;
+  height: 40px;
+}
+.annualy {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  line-height: 120%;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.3);
+}
+.rectangleParent {
+  position: absolute;
+  top: 259px;
+  left: 843px;
+  width: 235px;
+  height: 40px;
+  color: var(--color-white);
+}
+.pricing2,
+.pricingContainer {
+  position: absolute;
+  left: 0;
+  width: 1920px;
+  overflow: hidden;
+}
+.pricing2 {
+  top: 4px;
+  background-color: var(--color-white);
+  height: 1094px;
+}
+.pricingContainer {
+  top: 110px;
+  height: 970px;
+  text-align: center;
+  font-size: var(--inter-semi-bold-16-size);
+  font-family: var(--font-montserrat);
+}
+.pricing {
+  position: relative;
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--base-black);
+  font-family: var(--font-poppins);
+}

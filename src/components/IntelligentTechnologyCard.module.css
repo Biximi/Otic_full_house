@@ -1,0 +1,57 @@
+.unlockingThePotential {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 66px;
+  font-weight: 800;
+  display: inline-block;
+  width: 698px;
+  height: 228px;
+}
+.joinWith {
+  line-height: 28px;
+}
+.schools {
+  line-height: 24px;
+}
+.joinWith4600Container {
+  position: absolute;
+  top: 0;
+  left: 178.19px;
+  display: inline-block;
+  width: 427.91px;
+  height: 64.49px;
+}
+.imageIcon,
+.info {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 156.08px;
+  height: 61.03px;
+}
+.info {
+  top: 280.99px;
+  left: 3.9px;
+  width: 606.1px;
+  height: 65.03px;
+  font-size: var(--pj-bold-18-size);
+}
+.buttons,
+.contentLeft {
+  position: absolute;
+  top: 406.51px;
+  left: 3.9px;
+  width: 508.55px;
+  height: 64.49px;
+}
+.contentLeft {
+  top: 264px;
+  left: 194px;
+  width: 698px;
+  height: 471px;
+  text-align: left;
+  font-size: var(--pj-bold-58-size);
+  color: var(--gray-900);
+  font-family: var(--pj-bold-18);
+}

@@ -1,0 +1,192 @@
+.div,
+.input {
+  position: absolute;
+}
+.input {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+  height: 50px;
+}
+.div {
+  top: 15px;
+  left: 352.88px;
+  line-height: 22.5px;
+}
+.divcalIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.labelDate {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  font-size: var(--inter-semi-bold-16-size);
+  line-height: 24px;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-400);
+  opacity: 0.4;
+}
+.divformGroup {
+  position: relative;
+  width: 381px;
+  height: 50px;
+}
+.divcolSm3 {
+  width: 405px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1620px;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkgray-500);
+}
+.options {
+  position: absolute;
+  right: 380px;
+  bottom: 49px;
+  background-color: var(--color-whitesmoke-800);
+  width: 1px;
+  height: 1px;
+}
+.div1 {
+  position: relative;
+  line-height: 38px;
+}
+.textbox {
+  width: 379px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-342xl) var(--padding-12xs)
+    var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.combobox,
+.presentation {
+  position: absolute;
+  box-sizing: border-box;
+}
+.combobox {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-700);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.presentation {
+  top: 21px;
+  left: 354px;
+  border-top: 6px solid var(--color-gainsboro-700);
+  border-right: 6px solid var(--color-gainsboro-700);
+  border-left: 6px solid var(--color-gainsboro-700);
+  width: 12px;
+  height: 6px;
+}
+.labelSelect {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  font-size: var(--body-text-xs-font-semibold-size);
+  line-height: 18px;
+  font-weight: 300;
+  color: var(--color-gray-400);
+}
+.divcolSm31 {
+  width: 405px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1620px;
+  font-family: var(--font-nunito);
+}
+.div3 {
+  position: relative;
+  line-height: 16px;
+}
+.ifas {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.search {
+  position: relative;
+  line-height: 24px;
+  font-family: var(--font-nunito);
+}
+.divcolSm33,
+.divrow,
+.link {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.link {
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-1000);
+  border: 1px solid var(--color-darkslategray-400);
+  padding: var(--padding-smi) 153.97999572753906px var(--padding-smi)
+    154.02000427246094px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  min-height: 50px;
+}
+.divcolSm33,
+.divrow {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divcolSm33 {
+  width: 405px;
+  padding: var(--padding-0) var(--padding-xs);
+  max-width: 1620px;
+  text-align: center;
+  font-size: var(--inter-semi-bold-16-size);
+  color: var(--color-white);
+}
+.divrow {
+  position: absolute;
+  height: calc(100% - 795px);
+  width: calc(100% + 14px);
+  top: 585px;
+  right: -14px;
+  bottom: 210px;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(209, 209, 209, 0.25);
+  flex-wrap: wrap;
+  padding: var(--padding-mini) var(--padding-0);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-font-awesome-5-free);
+}

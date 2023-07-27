@@ -1,0 +1,52 @@
+.frameChild {
+  position: absolute;
+  top: 17px;
+  left: 23px;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-1200);
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.id {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.frameParent,
+.idWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.idWrapper {
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  position: absolute;
+  top: 5px;
+  left: 89px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-101xl);
+}
+.frameItem,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 268px;
+}
+.rectangleParent {
+  top: 377px;
+  left: 330px;
+  background-color: var(--color-lightgray-300);
+  width: 1492px;
+  height: 53px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--base-black);
+  font-family: var(--font-roboto);
+}

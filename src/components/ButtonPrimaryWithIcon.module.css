@@ -1,0 +1,38 @@
+.buttonName {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.iconoutlinearrowRight {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  flex-direction: row;
+}
+.buttonNameParent,
+.buttonprimarywithIcon,
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonNameParent {
+  flex-direction: row;
+  gap: var(--gap-4xs);
+}
+.buttonprimarywithIcon {
+  position: relative;
+  background-color: var(--base-black);
+  width: 190px;
+  flex-direction: column;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--inter-semi-bold-16-size);
+  color: var(--color-white);
+  font-family: var(--inter-semi-bold-16);
+}

@@ -1,0 +1,48 @@
+.div {
+  position: relative;
+  line-height: 24px;
+}
+.ifas {
+  width: 20px;
+}
+.ifas,
+.ifasParent,
+.span {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.span {
+  font-family: var(--font-roboto);
+}
+.ifasParent {
+  gap: var(--gap-3xs);
+}
+.div1 {
+  position: relative;
+  line-height: 18px;
+}
+.frameParent,
+.pseudo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  align-items: center;
+  gap: var(--gap-78xl);
+}
+.itemLink {
+  position: relative;
+  width: 229px;
+  height: 48px;
+  text-align: left;
+  font-size: var(--inter-semi-bold-16-size);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-font-awesome-5-free);
+}

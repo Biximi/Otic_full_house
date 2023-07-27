@@ -1,0 +1,87 @@
+.signinInner {
+  position: absolute;
+  top: 291px;
+  left: 961px;
+  width: 808px;
+  height: 712px;
+  overflow: hidden;
+}
+.signinChild {
+  position: absolute;
+  top: 0;
+  left: 198px;
+  background-color: var(--color-white);
+  width: 1571px;
+  height: 86px;
+}
+.frameChild {
+  width: 98px;
+  height: 42px;
+  object-fit: cover;
+}
+.pricing {
+  position: relative;
+  line-height: 60px;
+}
+.pricingWrapper {
+  width: 98px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.frameGroup {
+  gap: var(--gap-159xl);
+}
+.getStartedWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-blue);
+  width: 172px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+.frameDiv,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 300px;
+  gap: var(--gap-lg);
+}
+.frameParent {
+  position: absolute;
+  top: 22px;
+  left: 225px;
+  gap: var(--gap-516xl);
+}
+.signin {
+  position: relative;
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--base-black);
+  font-family: var(--font-poppins);
+}

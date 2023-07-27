@@ -1,0 +1,23 @@
+.pointIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.visitors {
+  position: relative;
+  line-height: 150%;
+}
+.points {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--pj-bold-18-size);
+  color: var(--base-black);
+  font-family: var(--font-montserrat);
+}
